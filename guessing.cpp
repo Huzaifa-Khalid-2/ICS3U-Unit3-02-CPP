@@ -17,6 +17,7 @@ int main() {
     std::cout << "Enter a random number between 0-9 (integer): ";
     std::cin >> user_guess;
     std::cout << "" << std::endl;
+
     // process
     if (user_guess == 5) {
     // output
@@ -24,6 +25,7 @@ int main() {
 }
     // process
     if (user_guess != 5) {
+    // output
     std::cout << "Oh No!!! guessed incorrectly :(" << std::endl;
 }
     std::cout << "" << std::endl;
