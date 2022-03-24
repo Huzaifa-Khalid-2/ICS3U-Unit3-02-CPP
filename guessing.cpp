@@ -26,7 +26,7 @@ int main() {
     // process
     if (user_guess != 5) {
     // output
-    std::cout << "Oh No!!! guessed incorrectly :(" << std::endl;
+    std::cout << "Oh No!!! you guessed incorrectly :(" << std::endl;
 }
     std::cout << "" << std::endl;
     std::cout << "\nDone.";
