@@ -20,12 +20,12 @@ int main() {
 
     // process
     if (user_guess == 5) {
-    // output
+        // output
     std::cout << "Hooray you guessed correctly !! :)" << std::endl;
 }
     // process
     if (user_guess != 5) {
-    // output
+        // output
     std::cout << "Oh No!!! you guessed incorrectly :(" << std::endl;
 }
     std::cout << "" << std::endl;
